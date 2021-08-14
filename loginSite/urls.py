@@ -5,5 +5,6 @@ App_name = 'loginSite'
 
 
 urlpatterns = [
+    path('signup/', views.sign_up, name='sign_up'),
 
 ]
